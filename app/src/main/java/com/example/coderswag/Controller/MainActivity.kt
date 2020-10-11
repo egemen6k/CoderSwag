@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.coderswag.Model.Category
@@ -32,8 +34,6 @@ class MainActivity : AppCompatActivity() {
         categoryListView.layoutManager = layoutManager
 
         categoryListView.setHasFixedSize(true)
-
-
 
     }
 }
